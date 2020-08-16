@@ -1,11 +1,11 @@
 import React from 'react';
+import {PokemonSearch} from './components/PokemonSearch';
 import './App.css';
-import PokemonSearch from './components/PokemonSearch';
 
 function App() {
   return (
     <div className="App">
-      <PokemonSearch name="John Doe" numberOfPokemons={5} />
+      <PokemonSearch name="John Doe" />
     </div>
   );
 }
